@@ -1,0 +1,130 @@
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p.p1{
+    font-family: 'Poppins', sans-serif;
+    border: 6px none #E7D82F;
+    border-radius: 10px;
+    background-color: #E7D82F;
+    text-align: center;
+    margin-left: 310px;
+    margin-right: 310px;
+    font-size: 20px;
+    color: white;
+}
+
+p.p2{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+body{
+    background-color: #20bfd6;
+}
+
+.nameHero{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 40px;
+}
+
+.searchBar{
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-left: 80px;
+    margin-right: 0px;
+    width: 1000px;
+}
+
+.btnSearch{
+    margin-right: 80px;
+    margin-left: 1100px;
+    margin-top: -65px;
+    background-color: white;
+    border-color: white;
+}
+.btnSearch:hover{
+    margin-right: 80px;
+    background-color: #E7D82F;
+    border-color: #E7D82F;
+}
+
+.btnP{
+    background-color: #E7D82F;
+    border-color: #E7D82F;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 40%;
+    margin-top: 10px;
+    border: 5px solid #E7D82F;
+    border-radius: 50px 0px 0px 50px;
+    text-align: center;
+}
+
+.btnP:hover{
+    background-color: #a1a5a8;
+    border-color: #a1a5a8;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 40%;
+    margin-top: 10px;
+    border: 5px solid #a1a5a8;
+    border-radius: 50px 0px 0px 50px;
+    text-align: center;
+}
+
+.btnN{
+    position: absolute;
+    background-color: #E7D82F;
+    border-color: #E7D82F;
+    color: white;
+    margin-top: -36px;
+    margin-left: 55%;
+    border: 5px solid #E7D82F;
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+}
+
+.btnN:hover{
+    background-color: #a1a5a8;
+    border-color: #a1a5a8;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    border: 5px solid #a1a5a8;
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+}
+
+img{
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+.info{
+    margin-left: 58%;
+    margin-top: -640px;
+    width: 200%;
+}
+
+.appearance{
+    margin-top: 100px;
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    margin-left: 25%;
+    padding-left: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+    border: 5px solid white;
+    border-radius: 10px 10px 10px 10px;
+}

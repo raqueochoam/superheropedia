@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet"  href="/style.css">
+    <title>Superhero-pedia</title>
+</head>
+<body>
+    <h1>SUPERHERO-PEDIA</h1>
+    <div>
+        <p class="p1">The best encyclopedia of superheroes on the web.</p>
+    </div>
+    <div>
+        <p class="p2">Start your search!</p>
+    </div>
+    <!--Search bar-->
+    <div class="input-group">
+        <form action="/search" method="post">
+          <input type="search" class="form-control rounded searchBar" placeholder="Search" aria-label="Search"
+          aria-describedby="search-addon" id="inputSearch" name="inputSearch"/>
+          <button type="submit" class="btn btn-outline-primary btnSearch">search</button>
+        </form>
+    </div>
+
+    <!--card-->
+    <div class="bttns">
+        <form action="/previus" method="post">
+          <button class="srcBttn btnP" type="submit"> previus </button>
+        </form>
+        <form action="/next" method="post">
+          <button class="srcBttn btnN" type="submit">next </button>
+        </form>
+    </div>
+    <!--card-->
+    <img src="<%= imageurl%>" alt="image">
+    <div class="card info" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title nameHero"><%= nameHero %></h5>
+          <p class="card-text"><%= idHero %></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Full name: </b><%= fullname %></li>
+          <li class="list-group-item"><b>Place of birth: </b><%= placeOfBirth %></li>
+          <li class="list-group-item"><b>Aliases: </b><%= aliases %></li>
+        </ul>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">POWER STATS
+            <p class="card-text"><b>Intelligence: </b><%= intelligence %></p>
+            <p class="card-text"><b>Strength: </b><%= strength %></p>
+            <p class="card-text"><b>Speed: </b><%= speed %></p>
+            <p class="card-text"><b>Durability: </b><%= durability %></p>
+            <p class="card-text"><b>Power: </b><%= power %></p>
+            <p class="card-text"><b>Combat: </b><%= combat %></p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="appearance">
+            <p class="card-text">APPEARANCE</p>
+            <p class="card-text"><b>Gender: </b><%= gender %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Eye Color: </b><%= eye %></p>
+            <p class="card-text"><b>Race: </b><= race %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hair Color: </b><%= hair %></p>
+            <p class="card-text"><b>Height: </b><%= height %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Affiliation: </b><%= affiliation %></p>
+            <p class="card-text"><b>Weight: </b><%= weight %></p>
+      </div>
+
+</body>
+</html>
